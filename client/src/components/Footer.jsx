@@ -2,11 +2,11 @@ import React from 'react'
 import {assets, footer_data} from '../assets/assets'
 const Footer = () => {
   return (
-    <div className='px-6 md:px-16 lg:px-24 xl:px-32 bg-primary/3' >
+    <div className='px-6 md:px-16 lg:px-24 xl:px-32 ' >
       <div className='flex flex-col md:flex-row items-start justify-between gap-10
       py-10 border-b border-gray-500/30 text-gray-500' >
        <div>
-        <img src={assets.logo} alt="logo" className='w-32 sm:w-44' />
+        <img src='/new1.png' alt="logo" className='w-32 sm:w-44' />
         <p className='max-w-[410px] mt-6' >
             Neural Narrative is an AI-powered blogging platform designed
              to help creators, writers, and professionals share their stories 
