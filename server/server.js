@@ -9,7 +9,9 @@ const app = express()
 config()
 
 //Middlwares
-app.use(cors())
+app.use(cors({    origin: 'https://neural-narrate-client.vercel.app',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true }))
 app.use(json())
 
 await connectDB()
